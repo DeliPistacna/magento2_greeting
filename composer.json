@@ -1,0 +1,29 @@
+{
+    "name": "delipistacna/magento2_greeting",
+    "description": "Sample module",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": "^8.1",
+        "magento/framework": "^103.0"
+    },
+    "authors": [
+        {
+            "name": "Deli",
+            "email": "deli@delipistacna.click"
+        }
+    ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "DeliPistacna\\Greeting\\": ""
+        }
+    },
+    "repositories": {
+        "fastly-magento2": {
+            "type": "git",
+            "url": "https://github.com/DeliPistacna/magento2_greeting.git"
+        }
+    }
+}
