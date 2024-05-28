@@ -1,5 +1,25 @@
 # DeliPistacna/Greeting
 Code sample for GymBean
+## Installation
+### 1: Install module
+### 1.a) Using composer (Recommended)
+Add git repository to composer:
+```json
+{
+    "type": "git",
+    "url": "git@github.com:DeliPistacna/magento2_greeting.git"
+}
+```
+then run
+### 1.b) Manual installation
+- Download the latest zip from [releases](https://github.com/DeliPistacna/magento2_greeting/releases).
+- Extract to app/code folder of your Magento 2 instance
+
+### 2: Run Upgrade
+```shell
+php bin/magento setup:upgrade
+```
+
 
 ## Objective
 The objective of the Case Study is to create a simple Magento 2 module, which will add new
@@ -17,3 +37,4 @@ framework and creates a new URL defined in the “objective” section.
 ## Output
 The solution should be working and ready to install the Magento2 module which extends the
 Magento 2 system with described new features.
+
