@@ -1,5 +1,11 @@
 # DeliPistacna/Greeting
 Code sample for GymBean
+
+## Prerequisites
+- PHP ^8.1
+- Magento/Framework ^103.0
+- Composer
+
 ## Installation
 ### 1: Install module
 ### 1.a) Using composer (Recommended)
@@ -10,7 +16,10 @@ Add git repository to composer:
     "url": "git@github.com:DeliPistacna/magento2_greeting.git"
 }
 ```
-then run
+Then run:
+```shell
+composer require delipistacna/magento2_greeting
+```
 ### 1.b) Manual installation
 - Download the latest zip from [releases](https://github.com/DeliPistacna/magento2_greeting/releases).
 - Extract to app/code folder of your Magento 2 instance
